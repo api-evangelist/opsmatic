@@ -1,7 +1,24 @@
 aid: opsmatic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opsmatic.png
 name: opsmatic
-description: opsmatic is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Opsmatic was a San Francisco-based infrastructure monitoring startup founded in 2013
+  that delivered a cloud service for real-time visibility into configuration changes and configuration
+  "drift" across dynamic cloud infrastructure, alerting DevOps and operations teams so they could
+  troubleshoot and reduce downtime. New Relic acquired Opsmatic in November 2015 to enter the
+  infrastructure monitoring market, and the company no longer operates as an independent entity. The
+  opsmatic.com domain now redirects to newrelic.com and there is no live independent developer portal,
+  documentation, or API surface to enrich. This record is retained as a historical VC-portfolio profile.
 url: https://raw.githubusercontent.com/api-evangelist/opsmatic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: acquired
+x-acquired-by: new-relic
+x-acquired-date: '2015-11-05'
 tags:
 - Company
+- Infrastructure Monitoring
+- DevOps
+- Observability
+- Configuration Management
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://opsmatic.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
